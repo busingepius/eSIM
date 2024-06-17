@@ -1,0 +1,1 @@
+const String profile_picture = "assets/images/profile.jpg";
