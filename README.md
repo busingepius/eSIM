@@ -29,7 +29,7 @@ However, bellow is an apk version for android users.
 ![Screenshot 3]()
 
 ## Video
-[Watch Video](https://drive.google.com/file/d/1J9)
+[Watch Video](https://github.com/busingepius/eSIM/blob/master/assets/videos/VID-20240617-WA0019.mp4)
 
 ## Architecture(in order to complete the project, use the BLoC pattern for state management.
 This project uses the BLoC pattern for state management. The BLoC pattern is a state management pattern that helps to manage the state of the application in a clear and efficient way. It makes use of streams and sinks to handle the flow of data in the application. The BLoC pattern is made up of the following components:
