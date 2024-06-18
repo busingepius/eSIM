@@ -3,7 +3,7 @@
 A UI for eSIM card management.
 
 ## UI
-- [Dribbble design](https://www.figma.com/file/)
+- [Dribbble design](https://github.com/busingepius/eSIM/blob/master/assets/images/ui.png)
 
 ## Getting Started
 
