@@ -23,7 +23,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFF2E67F9),
+        ),
         useMaterial3: true,
       ),
       home: const HomeScreen(),
@@ -37,13 +39,13 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.lightBlueAccent,
+      backgroundColor: const Color(0xFF2E67F9),
       body: SafeArea(
         child: Stack(
           children: [
             SingleChildScrollView(
               child: Padding(
-                padding: const EdgeInsets.only(top:8.0),
+                padding: const EdgeInsets.only(top: 8.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -61,7 +63,7 @@ class HomeScreen extends StatelessWidget {
                                   right: Radius.circular(20.0),
                                   left: Radius.circular(20.0),
                                 ),
-                                color: Colors.blueAccent,
+                                color: Color(0xFF1A45B4),
                               ),
                               child: const Row(
                                 children: [
@@ -95,7 +97,7 @@ class HomeScreen extends StatelessWidget {
                           decoration: const BoxDecoration(
                               image: DecorationImage(
                                 image: AssetImage(
-                                  "${profile_picture}",
+                                  profilePicture,
                                 ),
                                 fit: BoxFit.cover,
                               ),
@@ -119,7 +121,7 @@ class HomeScreen extends StatelessWidget {
                       margin: const EdgeInsets.symmetric(horizontal: 12.0),
                       padding: const EdgeInsets.symmetric(horizontal: 12.0),
                       decoration: const BoxDecoration(
-                        color: Colors.blueAccent,
+                        color: Color(0xFFC3FB42),
                         borderRadius: BorderRadius.all(Radius.circular(30.0)),
                       ),
                       child: Row(
@@ -258,13 +260,14 @@ class HomeScreen extends StatelessWidget {
                                             labelPadding:
                                                 const EdgeInsets.symmetric(
                                                     vertical: -5),
-                                            color:
-                                                MaterialStateProperty.all<Color>(
-                                                    Colors.lightGreen),
+                                            color: MaterialStateProperty.all<
+                                                Color>(
+                                              const Color(0xFFC3FB42),
+                                            ),
                                             label: const Text(
                                               "In Use",
-                                              style:
-                                                  TextStyle(color: Colors.white),
+                                              style: TextStyle(
+                                                  color: Colors.white),
                                             ),
                                             shape: RoundedRectangleBorder(
                                               borderRadius:
@@ -273,9 +276,10 @@ class HomeScreen extends StatelessWidget {
                                           ),
                                           const SizedBox(width: 2.0),
                                           Chip(
-                                            color:
-                                                MaterialStateProperty.all<Color>(
-                                                    Colors.blue),
+                                            color: MaterialStateProperty.all<
+                                                Color>(
+                                              const Color(0xFF1A45B4),
+                                            ),
                                             padding: const EdgeInsets.symmetric(
                                                 horizontal: 8),
                                             labelPadding:
@@ -283,8 +287,8 @@ class HomeScreen extends StatelessWidget {
                                                     vertical: -5),
                                             label: const Text(
                                               "Internet",
-                                              style:
-                                                  TextStyle(color: Colors.white),
+                                              style: TextStyle(
+                                                  color: Colors.white),
                                             ),
                                             shape: RoundedRectangleBorder(
                                               borderRadius:
@@ -305,8 +309,8 @@ class HomeScreen extends StatelessWidget {
                                           strokeWidth: 7,
                                           backgroundColor: Colors.grey[200],
                                           valueColor:
-                                              const AlwaysStoppedAnimation<Color>(
-                                                  Colors.blue),
+                                              const AlwaysStoppedAnimation<
+                                                  Color>(Colors.black),
                                         ),
                                       ),
                                     ),
@@ -380,7 +384,7 @@ class HomeScreen extends StatelessWidget {
                       padding: const EdgeInsets.only(top: 8.0),
                       width: double.infinity,
                       decoration: const BoxDecoration(
-                        color: Colors.greenAccent,
+                        color: Color(0xFFC3FB42),
                         borderRadius: BorderRadius.all(
                           Radius.circular(12.0),
                         ),

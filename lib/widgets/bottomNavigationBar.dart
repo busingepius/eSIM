@@ -22,6 +22,7 @@ class CustomBottomNavBar extends StatelessWidget {
         ),
       ),
       child: Row(
+        mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           IconButton(
@@ -29,7 +30,7 @@ class CustomBottomNavBar extends StatelessWidget {
             icon: const Icon(Icons.home),
             style: ButtonStyle(
               backgroundColor: MaterialStateProperty.all(
-                Colors.white,
+                const Color(0xFFC3FB42),
               ),
             ),
           ),
