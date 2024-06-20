@@ -24,12 +24,16 @@ However, bellow is an apk version for android users.
 - Search eSIM card by Status
 
 ## Screenshots
-![Screenshot 1]()
-![Screenshot 2]()
-![Screenshot 3]()
+![Screenshot 1](https://github.com/busingepius/eSIM/blob/master/assets/images/Screenshot_a1.jpg)
+![Screenshot 2](https://github.com/busingepius/eSIM/blob/master/assets/images/Screenshot_a2.jpg)
+![Screenshot 3](https://github.com/busingepius/eSIM/blob/master/assets/images/Screenshot_a3.jpg)
+![Screenshot 4](https://github.com/busingepius/eSIM/blob/master/assets/images/Screenshot_a4.jpg)
 
 ## Video
-[Watch Video](https://github.com/busingepius/eSIM/blob/master/assets/videos/VID-20240617-WA0019.mp4)
+[Watch Video](https://github.com/busingepius/eSIM/blob/master/assets/videos/video_1.mp4)
+
+## APK
+[Download APK](https://drive.google.com/file/d/1e0iwRIbCTjI4ML2-s46T0s-l9EDKAXT4/view?usp=sharing)
 
 ## Architecture(in order to complete the project, use the BLoC pattern for state management.
 This project uses the BLoC pattern for state management. The BLoC pattern is a state management pattern that helps to manage the state of the application in a clear and efficient way. It makes use of streams and sinks to handle the flow of data in the application. The BLoC pattern is made up of the following components:
