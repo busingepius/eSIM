@@ -9,7 +9,7 @@ A UI for eSIM card management.
 
 This project is built on dart and flutter. To run this project, you need to have flutter installed on your machine. If you don't have flutter installed, you can follow the instructions [here](https://flutter.dev/docs/get-started/install).
 However, bellow is an apk version for android users.
-- [Download APK](https://drive.google.com/file/d/1qf8QtFM-jm2Lf788KMWKkY0IUHbsGWw2/view?usp=sharing)
+- [Download APK](https://drive.google.com/file/d/1e0iwRIbCTjI4ML2-s46T0s-l9EDKAXT4/view?usp=sharing)
 
 ## Features(Can be extended to more features)
 - Add eSIM card
