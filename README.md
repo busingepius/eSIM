@@ -27,7 +27,7 @@ However, bellow is an apk version for android users.
 ![Screenshot 1](https://github.com/busingepius/eSIM/blob/master/assets/images/Screenshot_a1.jpg)
 ![Screenshot 2](https://github.com/busingepius/eSIM/blob/master/assets/images/Screenshot_a2.jpg)
 ![Screenshot 3](https://github.com/busingepius/eSIM/blob/master/assets/images/Screenshot_a3.jpg)
-![Screenshot 4](https://github.com/busingepius/eSIM/blob/master/assets/images/Screenshot_a4.jpg)
+![Screenshot 4](https://github.com/busingepius/eSIM/blob/master/assets/images/Screenshot_a4.png)
 
 ## Video
 [Watch Video](https://github.com/busingepius/eSIM/blob/master/assets/videos/video_1.mp4)
